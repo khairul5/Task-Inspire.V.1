@@ -1,0 +1,671 @@
+/*Home Page*/
+
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Open Sans',sans-serif;
+}
+
+a.button {
+
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 300;
+  width: 394px;
+  height: 147px;
+  line-height: 48px;
+  padding: 11px;
+  background: #3366FF;
+  border-radius: 8px;
+  color: #FFF;
+  text-shadow: 0 1px 0 rgba(0,0,0,.25);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+
+
+
+
+h1{
+
+
+  font-size: 40px;
+  margin-bottom: 30px;
+    margin-top: 36px;
+}
+
+
+/*End Home page*/
+
+
+/*Login Page*/
+a.for_sig {
+  text-decoration: none;
+  color: black;
+}
+
+
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+input.button {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: #3366FF;
+  height: 42px;
+  line-height: 42px;
+  color:white;
+  font-weight: bold;
+
+
+}
+
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+
+
+body {
+  background: #ffffff;
+}
+
+
+
+
+input[type="submit"] {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: #009ECB;
+  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: 0.1em solid rgba(0, 158, 203, 1);
+  border-radius: 3px;
+}
+
+
+
+
+
+select {
+  height: 42px;
+  width: 100%;
+  border: 0.1em solid rgba(0, 158, 203, 0.48);
+
+}
+
+
+
+
+input.checkbox {
+  height: 26px;
+  width:24px;
+  float: left;
+  font-size: 19px;
+
+}
+
+
+textarea.textaria_com {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.col-md-6 {
+  margin: 0;
+  padding: 0;
+}
+
+
+span.com_name {
+  float: left;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+
+table {
+  background-color: rgb(255, 255, 255);
+}
+
+/* Css for header template*/
+
+
+.btn-group.show-on-hover {
+  float: right;
+}
+
+p.menu {
+  color: #009fcc;
+ 
+  padding-top: 15px;
+} 
+
+
+header {
+  width: 100%;
+  height: 60px;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background: #453E3E;
+  border-bottom: 1px solid #453E3E;
+}
+
+img.img-responsive {
+  padding-top: 7px;
+}
+
+a {
+  background-color: transparent;
+}
+
+ a.dropdown-toggle {
+  color: white;
+}
+
+
+ .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  background-color: #453E3E;
+  border-color: #337ab7;
+}
+img.head_img {
+  padding-top: 7px;
+}
+
+a.button-width {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  / font-size: 16px; /
+  font-weight: bold;
+  width: 394px;
+  height: 147px;
+  line-height: 48px;
+  / padding: 11px; /
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 27px;
+  padding-right: 27px;
+  background: #3366FF;
+  / border-radius: 8px; /
+  color: #FFF;
+  text-shadow: 0 1px 0 rgba(0,0,0,.25);
+  background-clip: padding-box;
+  cursor: pointer;
+}
+
+
+button.button {
+ 
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #009ECB;
+  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 20px;
+}
+
+
+.finished_task{
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  border: 0.1em solid rgba(163, 163, 163, 0);
+  line-height: 2.50em;
+  background: rgb(241, 252, 255);
+  width: 100%;
+
+}
+
+
+
+
+a.icon_txt {
+  /*float: left;*/
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+form {
+  margin-bottom: 0px;
+}
+
+a.task_name {
+  font-size: 17;
+  /*float: left;*/
+  padding-left: 5px; 
+  text-decoration: none;
+}
+
+
+h1, h2, h3 {
+
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Css*/
+
+
+
+@media (min-width: 768px) and (max-width:992px) {
+    .container {
+    width: initial;
+        padding-left: 2em;
+        padding-right: 2em;        
+  }
+}
+
+
+.my_planHeader {
+    text-align: center;
+    color: white;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+}
+.my_planTitle {
+    font-size:2em;
+    font-weight: bold;
+}
+.my_planPrice {
+    font-size:1.4em;
+    font-weight: bold;    
+}
+.my_planDuration {
+    margin-top: -0.6em;
+}
+
+@media (max-width: 768px) {
+    .my_planTitle {
+        font-size:small;
+    }    
+}
+
+
+
+.my_feature {
+
+}
+
+@media (max-width: 768px) {
+    .my_feature {
+       /* text-align: center;*/
+    }
+ }
+
+.my_featureRow {
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+    background: rgb(229, 250, 255);
+    border-radius: 5px;
+    /*border: 0.1em solid rgba(249, 249, 249, 0);*/
+    line-height: 2.50em;
+    
+    /*width: 100%;*/
+}    
+
+
+
+.my_planFeature {
+    /*text-align: center;*/
+    font-size: 17px;
+}
+
+.my_planFeature i.my_check {
+    color: green;
+}
+
+
+
+.col-md-9.my_feature {
+  text-align: left;
+  font-size: 19px;
+  padding-top: 13px;
+}
+
+i.fa.fa-user.user_icon {
+  float: left;
+  color: #025066;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+i.fa.fa-calendar {
+  float: left;
+  color: #515D61;
+  padding-top: 10px;
+  padding-left: 14px;
+}
+
+
+
+
+.col-md-3.padding_left {
+  padding-left: 0;
+}
+
+.col-md-3.padding_right {
+  padding-right: 0;
+}
+
+
+input[type="text"] {
+  border: 0.1em solid rgba(0, 158, 203, 0.48);
+}
+
+input[type="date"] {
+  border: 0.1em solid rgba(0, 158, 203, 0.48);
+}
+
+
+
+
+/* Four Button */
+
+
+input.red {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: #FF4400;
+  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: 0.1em solid rgba(0, 158, 203, 0);
+  border-radius: 0px;
+}
+
+input.green {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: rgb(113, 203, 0);
+  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: 0.1em solid rgba(0, 158, 203, 0);
+  border-radius: 0px;
+}
+
+input.yellow {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: rgb(2, 211, 203);  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: 0.1em solid rgba(0, 158, 203, 0);
+  border-radius: 0px;
+}
+
+input.orange {
+  padding: 0;
+  margin: 0 0 10px;
+  width: 100%;
+  background: orange;
+  height: 42px;
+  line-height: 42px;
+  color: white;
+  font-weight: bold;
+  border: 0.1em solid rgba(0, 158, 203, 0);
+  border-radius: 0px;
+}
+
+.col-xs-12.col-sm-2.padding_right {
+  padding-right: 0px;
+  padding-left: 0px;
+
+  }
+
+  .col-xs-12.col-sm-6.padding_right {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+
+
+.col-xs-12.col-sm-1.finished {
+  padding: 0;
+  background: rgb(113, 203, 0);
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.col-xs-12.col-sm-1.ongoing {
+  padding: 0;
+  background: rgb(2, 211, 203);
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+.col-xs-12.col-sm-1.held {
+  padding: 0;
+  background: orange;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+.col-xs-12.col-sm-1.unfinished {
+  padding: 0;
+  background: rgb(199, 221, 226)
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+/* CheckBox */
+
+.checkbox.checkbox_margin {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+
+i.fa.fa-user.user_icon.padding_right {
+  padding-right: 10px;
+}
+
+
+/* DateTimePicker */
+
+  #to-do .k-datetimepicker {
+        width: 200px;
+    }
+    html.k-material #to-do {
+        height: 55px;
+        width: 260px;
+        padding: 87px 0 0 150px;
+    }
+    html.k-material #to-do .k-datetimepicker {
+        width: 240px;
+    }
+
+
+input#datetimepicker {
+  width: 100%;
+  height: 37;
+}
+
+.k-datetimepicker .k-picker-wrap .k-icon {
+  margin: 12px 6px 0 6px !important;
+} 
+
+span.k-widget.k-datetimepicker.k-header {
+  width: 100%;
+}
+
+/* Progressbar */
+
+.progress.bottom_margin {
+  margin-bottom: 0px;
+  height: 35px;
+  background-color:#E7E7E7;
+}
+
+a.project:hover {
+  text-decoration: none;
+}
+
+a.project {
+  font-weight: 500;
+  font-size: 17;
+}
+.navbar.navbar-default {
+  background-color: #453E3E;
+}
+
+/* color for admin column */
+.col-xs-12.col-sm-2.my_planFeature.my_plan3 {
+  background-color: rgba(2, 211, 203, 0.1);
+}
+/*color for created on*/
+.col-xs-12.col-sm-2.my_planFeature.my_plan1 {
+  background-color: rgba(2, 211, 203, 0.17)
+}
+
+/*color for progress*/
+
+.col-xs-12.col-sm-2.my_planFeature.my_plan2 {
+  background-color: rgba(255, 165, 0, 0.35);
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+a.projects {
+  text-decoration: none;
+}
+
+p.permission {
+  font-size: 25px;
+}
+
+a.progress-bar {
+  background-color: #31BFD8 !important;
+}
+
+
+
+
+
+.col-xs-12.col-sm-2.my_feature {
+  background-color: rgba(2, 211, 203, 0.17);
+}
+
+
+h3.new_user {
+  margin-top: 250px;
+}
+
+i.fa.fa-user.user_icon_comment.padding_right{
+
+  float: left;
+  color: #68D4F2;
+  padding-top: 10px;
+  padding-left: 19px;
+  font-size: 56px;
+}
+
+
+a.comment_icon_txt{
+
+  /* float: left; */
+  padding-left: 4px;
+  text-decoration: none;
+  font-size: 14;
+  color: gray;
+}
+
+
+.comment_div {
+  line-height: 14px;
+  /*padding-bottom: 12px; */
+}
+
+i.fa.fa-clock-o.user_icon {
+  font-size: 14px;
+  color: gray;
+}
+
+a.user_comment {
+  text-decoration: none;
+  color: black;
+  line-height: 28px;
+}
+
+i.fa.fa-comments-o.padding_right {
+  padding-right: 5px;
+  color: gray;
+}
+
+
+a.user_comment {
+  word-wrap: break-word;
+}
+
+i.num_color {
+  color: gray;
+}
+
+
+span.check {
+  border: 1px solid !important;
+}
+
+
+hr {
+  border-top: 1px solid #BEBEBE;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+i.fa.fa-trash-o.user_icon {
+  padding-left: 5px;
+  color: gray;
+}
+
+p.padding_bottom {
+  margin-bottom: 0px;
+}
+
+i.fa.fa-circle {
+  color: rgb(2, 211, 203);
+}
